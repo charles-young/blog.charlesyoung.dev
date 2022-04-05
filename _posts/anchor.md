@@ -40,4 +40,4 @@ Unless UST falls off its peg, depositor funds are safe and even if the economic 
 The "Anchor Rate" is the target APY that the Anchor protocol seeks to pay out to its depositors and a quorum of ANC governance token holders vote to set the Anchor Rate for the contract.
 
 ## Conclusion
-Anchor is an easy way to earn a stable yield on a dollar pegged asset.  While the protocol is still dependent on its reserves to achieve the 20% yield phasing out reliance on the reserve will push Anchor to new heights.
+Anchor is an easy way to earn a stable yield on a dollar pegged asset.  While the protocol is still dependent on its reserves to achieve the 20% yield, phasing out reliance on the reserve will push Anchor to new heights.
