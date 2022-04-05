@@ -13,7 +13,7 @@ The Anchor protocol is a decentralized savings protocol which aims to offer low-
 The current interest of the Anchor Earn contract is 19.47% and has held steady around that mark since its conception.  Recently in [Proposal 20](https://app.anchorprotocol.com/poll/20), a semi-dynamic earn rate was implemented. This change will allow the Anchor protocol to increase/decrease the Anchor Rate each month in correspondence with the present Yield Reserve in the contract to ensure greater sustainability and potential for increased borrowing demand. To prevent large swings in the Anchor Rate, adjustments to the Anchor Rate are capped at +/-1.5%.
 
 ### Liquidations
-Anchor incentives liquidators to observe and liquidate loans with a borrow amount that exceeds the allowed borrowing limit. Since Anchor has a max loan-to-value amount (LTV) of 60% and recommended 45% LTV, if a borrower defaults on their loan, Anchor is able to place collaterals in a liquidation queue and can repay the outstanding debt on the loan.
+Anchor incentivises liquidators to observe and liquidate loans with a borrow amount that exceeds the allowed borrowing limit. Since Anchor has a max loan-to-value amount (LTV) of 60% and recommended 45% LTV, if a borrower defaults on their loan, Anchor is able to place collaterals in a liquidation queue and can repay the outstanding debt on the loan.
 
 ### Interest on Debts
 The interest rate to borrow is dynamic but the current rate is ~13%.  Anchor is currently incentivising borrowing by distributing their native token ANC to borrowers at a rate of ~7.5% which lowers the effective rate to borrow to just ~5.5%. This incentivised borrowing is slowly being phased out as more users join the contract and lock up their funds.
