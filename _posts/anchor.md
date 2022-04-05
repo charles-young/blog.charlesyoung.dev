@@ -7,7 +7,7 @@ ogImage:
   url: '/assets/blog/anchor/cover.jpg'
 ---
 
-The Anchor protocol is a decentralized savings protocol which aims to offer low-volatile yields on UST (TerraUSD) deposits.  The savings yield offered on the Anchor Protocol is called the Anchor rate and is powered by staking rewards and borrowers in the Anchor contract.  So how does Anchor provide such high yields and what's the catch?
+The Anchor protocol is a decentralized savings protocol which aims to offer low-volatile yields on UST (TerraUSD) deposits.  The savings yield offered on the Anchor protocol is called the Anchor rate and is powered by staking rewards and borrowers in the Anchor contract.  So how does Anchor provide such high yields and what's the catch?
 
 ## The Economics of the Anchor Protocol
 The current interest of the Anchor Earn contract is 19.47% and has held steady around that mark since its conception.  Recently in [Proposal 20](https://app.anchorprotocol.com/poll/20), a semi-dynamic earn rate was implemented. This change will allow the Anchor protocol to increase/decrease the Anchor Rate each month in correspondence with the present Yield Reserve in the contract to ensure greater sustainability and potential for increased borrowing demand. To prevent large swings in the Anchor Rate, adjustments to the Anchor Rate are capped at +/-1.5%.
@@ -25,7 +25,7 @@ All collateral on the Anchor protocol is in the form of staked LUNA and ETH whic
 "There are no risks! It's free internet money!" - Some guy on Reddit, probably.  All jokes aside, as with any new technology, there are always risks, and I will outline some concerns below.
 
 ### Smart Contract Vulnerability
-As with all new technology, there is still risk in the protocol.  While the Anchor Protocol has been audited by [CertiK](https://www.certik.com/), there may be an unknown bug in the [Smart Contract](https://www.ibm.com/topics/smart-contracts) which a bad actor could exploit.
+As with all new technology, there is still risk in the protocol.  While the Anchor protocol has been audited by [CertiK](https://www.certik.com/), there may be an unknown bug in the [Smart Contract](https://www.ibm.com/topics/smart-contracts) which a bad actor could exploit.
 
 ### Depegging of UST
 Since all deposits are done in UST, if UST were to fall of its peg, it would wreak havoc on the Terra ecosystem, including Anchor.  UST has fallen off its peg in the past, namely the crash in March 2021 when Terra lost 81% of its value and UST dropped to $0.897 before quickly recovering to $1.02. Since then, UST has stayed on its peg with +/-2% variance in price.  This is because arbitragers are able to keep UST pegged at $1 by burning their Terra (LUNA) to mint UST if UST drops below its peg, and burn UST and mint Terra (LUNA) if UST goes above its peg.  UST is currently backed by partial reserves, and it could fall off its peg in a bank run scenario.
