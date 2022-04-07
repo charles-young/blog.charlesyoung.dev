@@ -5,6 +5,8 @@ coverImage: '/assets/blog/anchor/cover.jpg'
 date: '2022-04-04'
 ogImage:
   url: '/assets/blog/anchor/cover.jpg'
+tag: 'Cryptocurrencies'
+color: 'blue'
 ---
 
 The [Anchor protocol](https://www.anchorprotocol.com/) is a decentralized savings protocol which aims to offer low-volatile yields on UST (TerraUSD) deposits.  The savings yield offered on the Anchor protocol is called the Anchor rate and is powered by staking rewards and borrowers in the Anchor contract.  So how does Anchor provide such high yields and what's the catch?

@@ -8,14 +8,15 @@ import Layout from '../../components/layout'
 import { getPostBySlug, getAllPosts } from '../../lib/api'
 import PostTitle from '../../components/post-title'
 import Head from 'next/head'
-import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
+import {readingTimeInMinutes} from "../index";
 
-export default function Post({ post, morePosts, preview }) {
+export default function Post({ post, morePosts, preview, tag }) {
   const router = useRouter()
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
+
   return (
     <Layout preview={preview}>
       <Container>
@@ -36,6 +37,9 @@ export default function Post({ post, morePosts, preview }) {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
+                tag={post.tag}
+                color={post.color}
+                readTime={readingTimeInMinutes(post.content)}
               />
               <PostBody content={post.content} />
             </article>
@@ -55,6 +59,8 @@ export async function getStaticProps({ params }) {
     'content',
     'ogImage',
     'coverImage',
+    'tag',
+    'color'
   ])
   const content = await markdownToHtml(post.content || '')
 
